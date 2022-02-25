@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: serif;
+    padding: 20px;
+  }
+  
+  .cart_top_right {
+    height: 80px;
+    width: 100%;
+  }
+  
+  .cart_top_right ul {
+    float: right;
+  }
+  
+  .cart_top_right li {
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    line-height: 30px;
+  }
+  
+  .cart_top_right li a {
+    color: white;
+  }
+  
+  #shopping {
+    color: white;
+  }
+  
+  .shopping {
+    background-color: rgb(255, 173, 51);
+  }
+  
+  #shipping {
+    color: rgb(124, 124, 102);
+  }
+  
+  #payment {
+    color: rgb(124, 124, 102);
+  }
+  
+  .shipping {
+    background-color: rgb(245, 245, 245);
+  }
+  .shipping:hover {
+    background-color: rgb(255, 173, 51);
+  }
+  #shipping:hover {
+    color: white;
+  }
+  #payment:hover {
+    color: white;
+  }
+  .payment:hover {
+    background-color: rgb(255, 173, 51);
+  }
+  
+  .payment {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .cart_top {
+    width: 1200px;
+    margin-top: 0px !important;
+    margin-right: auto !important;
+    margin-bottom: 0px !important;
+    margin-left: auto !important;
+    height: 78px;
+    padding: 13px 0 0;
+    display: flex;
+  }
+  
+  .cart_box {
+    width: 1200px;
+    margin-top: 0px !important;
+    margin-right: auto !important;
+    margin-bottom: 0px !important;
+    margin-left: auto !important;
+    padding: 13px 0 0;
+  }
+  
+  .cart_box_left {
+    width: 100%;
+  }
+  
+  .product-container {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .product-container > div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  #card > img {
+    width: auto;
+    
+  }
+  
+  .product-container > div > p {
+    width: 80%;
+    margin: auto;
+  }
+  
+  #card {
+    padding: 0px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  #card > div {
+    margin: auto;
+  }
+  @media only screen and (max-width: 900px) and (min-width: 300px) {
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+    .product-container img {
+      width: 100px;
+      height: 100px;
+    }
+    .cart_box_left {
+      width: 100%;
+    }
+    .cart_top_right {
+      display: none;
+    }
+    .product-container > div {
+      width: auto;
+      margin: auto;
+      word-wrap: normal;
+    }
+  }
+  
